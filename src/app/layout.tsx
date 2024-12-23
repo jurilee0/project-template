@@ -1,7 +1,7 @@
-import 'reset-css';
-import './styles/globals.scss';
+import "reset-css";
+import "@styles/globals.scss";
 import type { Metadata } from "next";
-import Header from './components/Header/Header';
+import Header from "@components/Header/Header";
 
 export const metadata: Metadata = {
   title: "프로젝트명",

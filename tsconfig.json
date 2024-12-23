@@ -16,7 +16,13 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/app/components/*"],
+      "@contexts/*": ["./src/app/contexts/*"],
+      "@hooks/*": ["./src/app/hooks/*"],
+      "@styles/*": ["./src/app/styles/*"],
+      "@types/*": ["./src/app/types/*"],
+      "@utils/*": ["./src/app/utils/*"]
     },
     "plugins": [
       {
